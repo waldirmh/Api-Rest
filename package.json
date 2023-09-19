@@ -1,0 +1,31 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Api Rest de michis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldirmh/Api-Rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waldirmh/Api-Rest/issues"
+  },
+  "homepage": "https://github.com/waldirmh/Api-Rest#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
